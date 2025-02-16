@@ -9,7 +9,7 @@ int main(){
     if(num&msb)
     printf("%d",msb);
     else
-    printf("Not Set");
+    printf("%d",msb);
     return 0;
 
 }
