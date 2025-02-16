@@ -7,7 +7,7 @@ int main(){
     int bits = sizeof(num)*8;
     int msb = n << (bits-1);
     if(num&msb)
-    printf("Set");
+    printf("%d",msb);
     else
     printf("Not Set");
     return 0;
