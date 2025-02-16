@@ -4,12 +4,10 @@
 int main(){
     int num,n;
     scanf("%d%d",&num,&n);
-    int bits = sizeof(num)*8;
-    int msb = n << (bits-1);
-    if(num&msb)
-    printf("%d",msb);
+    if(num&(1<<n))
+    printf("1");
     else
-    printf("%d",msb);
+    printf("0");
     return 0;
 
 }
